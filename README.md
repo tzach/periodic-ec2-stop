@@ -9,8 +9,9 @@ npm install
 zip -r periodic-ec2-stop.zip *
 
 ## deploy
-Upload the zip file to EC2 Lambda
-Make sure the function have enough privileges to stop instances
+- Upload the zip file to EC2 Lambda.
+- Make sure the function have enough privileges to stop instances.
 
-**Run this on you own risk!**
-This will stop instances on you account!
+
+# **Use at your own risk!**
+
