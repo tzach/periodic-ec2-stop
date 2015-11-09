@@ -5,8 +5,10 @@ A EC2 Lambda function who stops all EC2 instances which:
 - does **not** have a tag with Key: 'keep', Value: 'alive'
 
 ## build
+```sh
 npm install
 zip -r periodic-ec2-stop.zip *
+```
 
 ## deploy
 - Upload the zip file to EC2 Lambda.
@@ -14,4 +16,3 @@ zip -r periodic-ec2-stop.zip *
 
 
 # **Use at your own risk!**
-
